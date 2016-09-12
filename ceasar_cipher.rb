@@ -1,5 +1,5 @@
 
-def ceasar_cipher(phrase, shift)
+def ceasar_cipher (phrase, shift)
 	up_case_alph = ('A'..'Z').to_a
 	down_case_alph = ('a'..'z').to_a
 
@@ -28,3 +28,5 @@ def ceasar_cipher(phrase, shift)
 	return encrypted
 end
 ceasar_cipher("WhAt A stRing!", 5)
+
+
