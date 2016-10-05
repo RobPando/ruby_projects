@@ -27,6 +27,6 @@ def ceasar_cipher (phrase, shift)
 	}.join(" ")
 	return encrypted
 end
-ceasar_cipher("WhAt A stRing!", 5)
+
 
 
